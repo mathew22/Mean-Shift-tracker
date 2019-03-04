@@ -1,0 +1,21 @@
+MEAN_SHIFt_PARAMETERS
+meanShiftConvergenceDistanceValue = 2
+MAxNoOfMeanShiftIteration = 100
+BinsPerChannel = 16
+SubItrNumber = 5
+SOURCE_OPTIONS
+imgSeqOrVideoFlag = 0
+videoFile = /media/mathew/WINDOWS8/LINUXDATA/DATASET/Labvideo/00006.MTS
+imageSeqPath = /media/mathew/WINDOWS8/LINUXDATA/DATASET/PETS2000/Images/
+imageSeqNamesFile = data/imgNames.txt
+initialBboxHardcoded = 0
+box_X = 10
+box_Y = 10
+box_WIdth = 40
+box_Height = 60
+writeVideoFlag = 1
+opVideoFile = data/trackingvideo.avi
+markGroundTruthFlag = 1
+groundTruthFile  = data/GT.txt
+
+
